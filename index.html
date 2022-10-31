@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <!-- шапка -->
+    <header class="header item_desktop">
+        <div class="container">
+
+            <div class="header__up">
+                <!-- лого и текст -->
+                <div class="up__one">
+                    <div class="up__logo">
+                        <a href="#">
+                            <img src="images/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="up__text">
+                        Профессиональное оборудование для предприятий общественного питания и торговли
+                    </div>
+                </div>
+                <!-- обратная связь, язык и поиск -->
+                <div class="up__two">
+                    <div class="up__connection">
+                        <div class="up__letter">
+                            <img src="images/letter.svg" alt="">
+                        </div>
+                        <a href="#">Обратная связь</a>
+                    </div>
+                    <div class="up__leng">
+                        <a href="#">Eng</a>
+                    </div>
+                    <div class="up__search">
+                        <a href="#">
+                            <img src="images/lupa.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+        
+            </div>
+
+        </div>
+ 
+    </header>
+    <!-- шапка мобилка-->
+    <header class="header item_mobile">
+        <div class="container">
+
+            <div class="header__up">
+                <!-- лого -->
+                <div class="up__logo">
+                    <a href="#">
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                </div>
+                <!-- поиск -->
+                <div class="up__search">
+                    <a href="#">
+                        <img src="images/lupa.svg" alt="">
+                    </a>
+                </div>
+
+                <!-- бургер меню -->
+                <div class="header__mobile_menu">
+                    <button>
+                        <img src="images/burger.svg" alt="">
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+    <!-- меню -->
+    <div class="menu item_desktop">
+        <div class="container">
+
+            <!-- список с элементами в меню -->
+            <ul class="menu__box">
+                <li class="prod">
+                    <a href="#">Продукция</a>
+                    <div class="arrow__down">
+                        <img src="images/arrow-down.svg" alt="">
+                    </div>
+                    <!-- <div class="dropdown-content">
+                        <a href="#">Ссылка 1</a>
+                        <a href="#">Ссылка 2</a>
+                        <a href="#">Ссылка 3</a>
+                    </div> -->
+                </li>
+                <li><a href="#">Где купить</a></li>
+                <li class="serves">
+                    <a href="#">Сервис и поддержка</a>
+                    <div class="arrow__down">
+                        <img src="images/arrow-down.svg" alt="">
+                    </div>
+                </li>
+                <li><a href="#">Решения</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Медиа</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- меню мобилка-->
+    <div class="menu item_mobile">
+        <div class="container">
+
+            <!-- список с элементами в меню -->
+            <ul class="menu__box">
+                <li class="prod">
+                    <a href="#">Продукция</a>
+                </li>
+                <li><a href="#">Где купить</a></li>
+                <li class="serves">
+                    <a href="#">Сервис и поддержка</a>
+                </li>
+                <li><a href="#">Решения</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Медиа</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- слайдер -->
+    <div class="slider item_desktop">
+
+        <div class="container">
+
+            <div class="swiper mySwiper">
+
+                <div class="swiper-wrapper">
+
+                    <div class="slider__box swiper-slide">
+                        <!-- заголовок, текст и кнопка -->
+                        <div class="slider__items">
+                            <div class="items__img">
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                                    <img src="images/temp.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="700" data-aos-easing="linear">
+                                    <img src="images/capla.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="900" data-aos-easing="linear">
+                                    <img src="images/vint.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="1100" data-aos-easing="linear">
+                                    <img src="images/sped.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="items__title">
+                                Специальные цены на популярные модели фармацевтических шкафов
+                            </div>
+                            <div class="items__text">
+                                Снижаем цены ради высоких возможностей
+                            </div>
+                            <div class="items__btn">
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                        <!-- картинка холодильник на главной -->
+                        <div class="slider__img" id="scene" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                            <img src="images/img-start.png" data-depth="0.05" alt="">
+                        </div>
+                    </div>
+
+                    <div class="slider__box swiper-slide">
+                        <!-- заголовок, текст и кнопка -->
+                        <div class="slider__items">
+                            <div class="items__img">
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                                    <img src="images/temp.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="700" data-aos-easing="linear">
+                                    <img src="images/capla.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="900" data-aos-easing="linear">
+                                    <img src="images/vint.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="1100" data-aos-easing="linear">
+                                    <img src="images/sped.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="items__title">
+                                Специальные цены на популярные модели фармацевтических шкафов
+                            </div>
+                            <div class="items__text">
+                                Снижаем цены ради высоких возможностей
+                            </div>
+                            <div class="items__btn">
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                        <!-- картинка холодильник на главной -->
+                        <div class="slider__img" id="scene" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                            <img src="images/img-start.png" data-depth="0.05" alt="">
+                        </div>
+                    </div>
+
+                    <div class="slider__box swiper-slide">
+                        <!-- заголовок, текст и кнопка -->
+                        <div class="slider__items">
+                            <div class="items__img">
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                                    <img src="images/temp.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="700" data-aos-easing="linear">
+                                    <img src="images/capla.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="900" data-aos-easing="linear">
+                                    <img src="images/vint.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="1100" data-aos-easing="linear">
+                                    <img src="images/sped.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="items__title">
+                                Специальные цены на популярные модели фармацевтических шкафов
+                            </div>
+                            <div class="items__text">
+                                Снижаем цены ради высоких возможностей
+                            </div>
+                            <div class="items__btn">
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                        <!-- картинка холодильник на главной -->
+                        <div class="slider__img" id="scene" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                            <img src="images/img-start.png" data-depth="0.05" alt="">
+                        </div>
+                    </div>
+
+                    <div class="slider__box swiper-slide">
+                        <!-- заголовок, текст и кнопка -->
+                        <div class="slider__items">
+                            <div class="items__img">
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                                    <img src="images/temp.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="700" data-aos-easing="linear">
+                                    <img src="images/capla.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="900" data-aos-easing="linear">
+                                    <img src="images/vint.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="1100" data-aos-easing="linear">
+                                    <img src="images/sped.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="items__title">
+                                Специальные цены на популярные модели фармацевтических шкафов
+                            </div>
+                            <div class="items__text">
+                                Снижаем цены ради высоких возможностей
+                            </div>
+                            <div class="items__btn">
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                        <!-- картинка холодильник на главной -->
+                        <div class="slider__img" id="scene" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                            <img src="images/img-start.png" data-depth="0.05" alt="">
+                        </div>
+                    </div>
+
+                    <div class="slider__box swiper-slide">
+                        <!-- заголовок, текст и кнопка -->
+                        <div class="slider__items">
+                            <div class="items__img">
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                                    <img src="images/temp.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="700" data-aos-easing="linear">
+                                    <img src="images/capla.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="900" data-aos-easing="linear">
+                                    <img src="images/vint.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="1100" data-aos-easing="linear">
+                                    <img src="images/sped.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="items__title">
+                                Специальные цены на популярные модели фармацевтических шкафов
+                            </div>
+                            <div class="items__text">
+                                Снижаем цены ради высоких возможностей
+                            </div>
+                            <div class="items__btn">
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                        <!-- картинка холодильник на главной -->
+                        <div class="slider__img" id="scene" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                            <img src="images/img-start.png" data-depth="0.05" alt="">
+                        </div>
+                    </div>
+
+                
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+            </div>
+            
+        
+
+        </div>
+
+        <!-- зеленый фон -->
+        <div class="slider__bg"></div>
+    </div>
+    <!-- слайдер мобилка-->
+    <div class="slider item_mobile">
+       <!-- зеленый фон -->
+       <div class="slider__bg"></div>
+
+        <div class="container">
+
+            <div class="swiper mySwiper">
+
+                <div class="swiper-wrapper">
+
+                    <div class="slider__box swiper-slide">
+                        <!-- картинка холодильник на главной -->
+                        <div class="slider__img" id="scene" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                            <img src="images/img-start.png" data-depth="0.05" alt="">
+                        </div>
+                        <!-- заголовок, текст и кнопка -->
+                        <div class="slider__items">
+                            <div class="items__img">
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                                    <img src="images/temp.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="700" data-aos-easing="linear">
+                                    <img src="images/capla.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="900" data-aos-easing="linear">
+                                    <img src="images/vint.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="1100" data-aos-easing="linear">
+                                    <img src="images/sped.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="items__title">
+                                Специальные цены на популярные модели фармацевтических шкафов
+                            </div>
+                            <div class="items__text">
+                                Снижаем цены ради высоких возможностей
+                            </div>
+                            <div class="items__btn">
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider__box swiper-slide">
+                        <!-- картинка холодильник на главной -->
+                        <div class="slider__img" id="scene" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                            <img src="images/img-start.png" data-depth="0.05" alt="">
+                        </div>
+                        <!-- заголовок, текст и кнопка -->
+                        <div class="slider__items">
+                            <div class="items__img">
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                                    <img src="images/temp.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="700" data-aos-easing="linear">
+                                    <img src="images/capla.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="900" data-aos-easing="linear">
+                                    <img src="images/vint.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="1100" data-aos-easing="linear">
+                                    <img src="images/sped.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="items__title">
+                                Специальные цены на популярные модели фармацевтических шкафов
+                            </div>
+                            <div class="items__text">
+                                Снижаем цены ради высоких возможностей
+                            </div>
+                            <div class="items__btn">
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider__box swiper-slide">
+                        <!-- картинка холодильник на главной -->
+                        <div class="slider__img" id="scene" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                            <img src="images/img-start.png" data-depth="0.05" alt="">
+                        </div>
+                        <!-- заголовок, текст и кнопка -->
+                        <div class="slider__items">
+                            <div class="items__img">
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                                    <img src="images/temp.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="700" data-aos-easing="linear">
+                                    <img src="images/capla.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="900" data-aos-easing="linear">
+                                    <img src="images/vint.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="1100" data-aos-easing="linear">
+                                    <img src="images/sped.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="items__title">
+                                Специальные цены на популярные модели фармацевтических шкафов
+                            </div>
+                            <div class="items__text">
+                                Снижаем цены ради высоких возможностей
+                            </div>
+                            <div class="items__btn">
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider__box swiper-slide">
+                        <!-- картинка холодильник на главной -->
+                        <div class="slider__img" id="scene" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                            <img src="images/img-start.png" data-depth="0.05" alt="">
+                        </div>
+                        <!-- заголовок, текст и кнопка -->
+                        <div class="slider__items">
+                            <div class="items__img">
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                                    <img src="images/temp.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="700" data-aos-easing="linear">
+                                    <img src="images/capla.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="900" data-aos-easing="linear">
+                                    <img src="images/vint.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="1100" data-aos-easing="linear">
+                                    <img src="images/sped.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="items__title">
+                                Специальные цены на популярные модели фармацевтических шкафов
+                            </div>
+                            <div class="items__text">
+                                Снижаем цены ради высоких возможностей
+                            </div>
+                            <div class="items__btn">
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider__box swiper-slide">
+                        <!-- картинка холодильник на главной -->
+                        <div class="slider__img" id="scene" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                            <img src="images/img-start.png" data-depth="0.05" alt="">
+                        </div>
+                        <!-- заголовок, текст и кнопка -->
+                        <div class="slider__items">
+                            <div class="items__img">
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                                    <img src="images/temp.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="700" data-aos-easing="linear">
+                                    <img src="images/capla.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="900" data-aos-easing="linear">
+                                    <img src="images/vint.svg" alt="">
+                                </div>
+                                <div class="items__img_i" data-aos="fade-down" data-aos-duration="1100" data-aos-easing="linear">
+                                    <img src="images/sped.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="items__title">
+                                Специальные цены на популярные модели фармацевтических шкафов
+                            </div>
+                            <div class="items__text">
+                                Снижаем цены ради высоких возможностей
+                            </div>
+                            <div class="items__btn">
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+
+                
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+            
+        
+
+        </div>
+
+ 
+    </div>
+    <!-- Продукция -->
+    <div class="products">
+
+        <div class="container">
+            <div class="products__body">
+                <!-- заголовок -->
+                <div class="products__items">
+                    <div class="products__title">
+                        Продукция
+                    </div>
+                    <div class="products__link">
+                        <a href="#">Перейти в каталог</a>
+                        <div class="arrow">
+                            <img src="images/arrow.svg"alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- списки продукции -->
+                <div class="products__inner">
+                    <ul class="products__ul"  data-aos="fade-down" data-aos-duration="600" data-aos-easing="linear">
+                        <li><a href="#">Решения для Dark Store</a></li>
+                        <li><a href="#">Шкафы холодильные</a></li>
+                        <li><a href="#">Шоковая заморозка</a></li>
+                        <li><a href="#">Шкафы для вызревания</a></li>
+                    </ul>
+                    <ul class="products__ul" data-aos="fade-up" data-aos-duration="600" data-aos-easing="linear">
+                        <li><a href="#">Шкафы медицинские</a></li>
+                        <li><a href="#">Оборудование для пекарен</a></li>
+                        <li><a href="#">Барные столы и шкафы</a></li>
+                        <li><a href="#">Столы холодильные</a></li>
+                    </ul>
+                    <ul class="products__ul products__ul_3" data-aos="fade-down" data-aos-duration="600" data-aos-easing="linear">
+                        <li><a href="#">Машины холодильные</a></li>
+                        <li><a href="#">Камеры холодильные</a></li>
+                        <li><a href="#">Лари морозильные</a></li>
+                        <li><a href="#">Оборудование для магазиностроения</a></li>
+                    </ul>
+                    <ul class="products__ul products__ul_four" data-aos="fade-up" data-aos-duration="600" data-aos-easing="linear">
+                        <li><a href="#">Модульные стеллажные системы</a></li>
+                        <li><a href="#">Продуктоматы iCell</a></li>
+                        <li><a href="#">Термоконтейнеры FoodLine</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- рекорды -->
+    <div class="records">
+
+        <div class="container">
+
+            <div class="records__body">
+                <!-- текст по середине -->
+                <div class="records__inner" data-aos="fade-up" data-aos-duration="600" data-aos-easing="linear">
+                    Компания Polair™ — крупнейший российский производитель профессионального холодильного оборудования с широким ассортиментом и покупателями более чем в 20 странах.
+                </div>
+                <!-- достижения рекорды -->
+                <div class="records__items">
+
+                    <div class="items__block" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear">
+                        <div class="block__numbers">
+                            >200<span>млн $</span>
+                        </div>
+                        <div class="block__info">
+                            годовой оборот группы
+                        </div>
+                        <div class="block__img" data-depth="0.05">
+                            <img src="images/cub.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="items__block" data-aos="fade-up" data-aos-duration="700" data-aos-easing="linear">
+                        <div class="block__numbers">
+                            ~2 650
+                        </div>
+                        <div class="block__info">
+                            численность сотрудников
+                        </div>
+                        <div class="block__img block__img_like">
+                            <img src="images/like.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="items__block" data-aos="fade-up" data-aos-duration="900" data-aos-easing="linear">
+                        <div class="block__numbers">
+                            ~180<span>тыс м2</span>
+                        </div>
+                        <div class="block__info">
+                            производственные площади
+                        </div>
+                        <div class="block__img block__img_cicle">
+                            <img src="images/cicle.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="items__block" data-aos="fade-up" data-aos-duration="1100" data-aos-easing="linear">
+                        <div class="block__numbers">
+                            >20
+                        </div>
+                        <div class="block__info">
+                            стран в географии продаж
+                        </div>
+                        <div class="block__img block__img_diamond">
+                            <img src="images/dimond.svg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    
+
+        </div>
+
+    </div>
+    <!-- стандарт -->
+    <div class="standart">
+
+        <div class="standart__body">
+            <!-- картинка с ягодами -->
+            <div class="standart__inner">
+                <img src="images/berry.png" alt="">
+            </div>
+            <!-- все о группе компаний -->
+            <div class="standart__items" data-aos="fade-right" data-aos-duration="600" data-aos-easing="linear">
+                <div class="items__box">
+
+                    <div class="box__group">
+                        о группе компаний
+                    </div>
+                    <div class="box__title">
+                        Высокие стандарты качества
+                    </div>
+                    <div class="box__text">
+                        Продукция Polair™ проходит 100% сквозной контроль качества и использует экологичные технологии производства.
+                    </div>
+                    <div class="box__link">
+                        <a href="#">Больше о нас</a>
+                        <div class="arrow">
+                            <img src="images/arrow.svg"alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Помощь -->
+    <div class="help">
+        <div class="container">
+
+            <div class="help__body">
+
+                <!-- блок с текстом 'полезные ссылки' -->
+                <div class="help__items" data-aos="fade-right" data-aos-duration="600" data-aos-easing="linear">
+                    <div class="items__group">
+                        Полезные ссылки
+                    </div>
+                    <div class="items__title">
+                        Помощь покупателю
+                    </div>
+                    <div class="items__text">
+                        Воспользуйтесь нашими конфигураторами холодильного оборудования, чтобы подобрать продукт для вашего бизнеса
+                    </div>
+                </div>
+                <!-- конфигуратор холодильных столов -->
+                <div class="help__inner">
+                    <div class="inner__img inner__img_move" id="inner__img_2" data-aos="fade-down" data-aos-duration="700" data-aos-easing="linear">
+                        <img src="images/holodilnik1.png" alt="" data-depth-x="0.05" data-depth-y="-0.05">
+                    </div>
+                    <div class="help__container">
+                        <div class="inner__title">
+                            Конфигуратор холодильных столов
+                        </div>
+                        <div class="inner__text">
+                            Подбор оборудования, совмещающего функции холодильного шкафа и рабочего стола
+                        </div>
+                        <div class="inner__btn">
+                            <button>Подобрать стол</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- конфигуратор холодильных машин -->
+                <div class="help__inner help__inner_2">
+                    <div class="inner__img inner__img_move" id="inner__img_1" data-aos="fade-down" data-aos-duration="700" data-aos-easing="linear">
+                        <img src="images/holodilnik2.png" alt=""  data-depth-x="0.05" data-depth-y="0.05">
+                    </div>
+                    <div class="help__container">
+                        <div class="inner__title">
+                            Конфигуратор  холодильных машин
+                        </div>
+                        <div class="inner__text">
+                            Программа по подбору моноблоков или сплит-систем к холодильным камерам Polair
+                        </div>
+                        <div class="inner__btn inner__btn_2">
+                            <button>Подобрать машину</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Новости -->
+    <div class="news">
+        <div class="container">
+
+            <div class="news__body">
+
+                <!-- заголовок и ссылка -->
+                <div class="news__inner">
+                    <div class="inner__title">
+                        Новости
+                    </div>
+                    <div class="inner__link">
+                        <a href="#">Все новости</a>
+                        <div class="arrow">
+                            <img src="images/arrow.svg"alt="">
+                        </div>
+                    </div>
+                </div>  
+
+                <!-- три новости -->
+                <div class="news__items">
+                    <div class="items__block" data-aos="fade-right" data-aos-duration="600" data-aos-easing="linear">
+                        <div class="items__img">
+                            <img src="images/news-1.jpg" alt="">
+                        </div>
+
+                        <div class="items__container">
+                            <div class="data__info">
+                                Новости<span class="data__cicle"></span><span class="data__numbers">10.06.2022</span>
+                            </div>
+
+                            <div class="items__title">
+                                Встречайте обновление фирменного стиля POLAIR
+                            </div>
+
+                            <div class="items__text">
+                                В новом визуальном стиле сохраняются узнаваемые элементы, но при этом он стал выглядеть более современно и динамично.
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                    <div class="items__block items__block_2">
+                        <div class="items__img">
+                            <img src="images/news-2.jpg" alt="">
+                        </div>
+
+                        <div class="items__container">
+                            <div class="data__info">
+                                Новости<span class="data__cicle"></span><span class="data__numbers">10.06.2022</span>
+                            </div>
+
+                            <div class="items__title">
+                                Polair Group представляет свой новый бренд Dazzl™
+                            </div>
+                            
+                            <div class="items__text">
+                                Представляем профессиональное холодильное оборудование для ритейла.
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="items__block" data-aos="fade-left" data-aos-duration="600" data-aos-easing="linear">
+                        <div class="items__img">
+                            <img src="images/news-3.jpg" alt="">
+                        </div>
+
+                        <div class="items__container">
+                            <div class="data__info">
+                                Новости<span class="data__cicle"></span><span class="data__numbers">10.06.2022</span>
+                            </div>
+
+                            <div class="items__title">
+                                Встречайте обновление фирменного стиля POLAIR
+                            </div>
+                            
+                            <div class="items__text">
+                                В новом визуальном стиле сохраняются узнаваемые элементы, но при этом он стал выглядеть более современно и динамично.
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- скачать -->
+    <div class="download">
+        <!-- картинка фона -->
+        <div class="download__bg item_desktop">
+            <img src="images/dowloand-bg.jpg" alt="">
+        </div>
+           <!-- картинка фона мобилка -->
+        <div class="download__bg item_mobile">
+            <img src="images/bg-mobile.png" alt="">
+        </div>
+        <!-- блок с информацией -->
+        <div class="container">
+            <div class="download__body" data-aos="zoom-in" data-aos-duration="600" data-aos-easing="linear">
+                <div class="download__container">
+
+                    <div class="download__title">
+                        Каталог оборудования Polair™ 2021/2022
+                    </div>
+                    <div class="download__text">
+                        Широкий ассортимент оборудования для предприятий общественного питания и торговли
+                    </div>
+                    <div class="download__btn">
+                        <button>Скачать PDF-каталог</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- бренды -->
+    <div class="brand item_desktop">
+        <div class="container">
+
+            <div class="brand__body">
+
+                <!-- заголовок -->
+                <div class="brand__inner">
+                    <div class="inner__title">
+                        Наши бренды
+                    </div>
+                </div>
+                <!-- все бренды -->
+                <div class="brand__items">
+
+                    <div class="items__box"  data-aos="zoom-in" data-aos-duration="1100" data-aos-easing="linear">
+                        <div class="box__container">
+
+                            <div class="box__logo box__logo_1">
+                                <img src="images/brand-1.svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                Лидер в производстве профессионального оборудования для торговли, общественного питания и кухни
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="items__box" data-aos="zoom-in" data-aos-duration="900" data-aos-easing="linear">
+                        <div class="box__container">
+
+                            <div class="box__logo">
+                                <img src="images/brand-2.svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                Витрины для кондитерских, экспресс кофеен, гастробаров и продуктовых магазинов
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="items__box" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="linear">
+                        <div class="box__container">
+
+                            <div class="box__logo">
+                                <img src="images/brand-3.svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                Профессиональное холодильное оборудование для ритейла
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="items__box items__box_4" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="linear">
+                        <div class="box__container">
+
+                            <div class="box__logo">
+                                <img src="images/brand-4.svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                Решения по хранению для медицинских учреждений и организаций
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="items__box" data-aos="zoom-in" data-aos-duration="600" data-aos-easing="linear">
+                        <div class="box__container">
+
+                            <div class="box__logo">
+                                <img src="images/brand-5.svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                Профессиональное оборудование для кухни
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="items__box" data-aos="zoom-in" data-aos-duration="1100" data-aos-easing="linear">
+                        <div class="box__container">
+
+                            <div class="box__logo">
+                                <img src="images/brand-6.svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                Системы стеклянных дверей для холодильного оборудования и стеллажи для ритейла
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="items__box" data-aos="zoom-in" data-aos-duration="700" data-aos-easing="linear">
+                        <div class="box__container">
+
+                            <div class="box__logo">
+                                <img src="images/brand-7.svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                Профессиональное оборудование для предприятий торговли и HoReCa
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- бренды мобилка -->
+    <div class="brand item_mobile">
+        <div class="container">
+
+            <div class="brand__body swiper">
+
+                <!-- все бренды -->
+                <div class="brand__items swiper-wrapper">
+
+                    <div class="items__box swiper-slide">
+                        <div class="box__container">
+
+                            <div class="box__logo">
+                                <img src="images/brand-4.svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                Решения по хранению для медицинских учреждений и организаций
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="items__box swiper-slide">
+                        <div class="box__container">
+
+                            <div class="box__logo">
+                                <img src="images/brand-2.svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                Витрины для кондитерских, экспресс кофеен, гастробаров и продуктовых магазинов
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="items__box swiper-slide">
+                        <div class="box__container">
+
+                            <div class="box__logo">
+                                <img src="images/brand-3.svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                Профессиональное холодильное оборудование для ритейла
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="items__box swiper-slide">
+                        <div class="box__container">
+
+                            <div class="box__logo box__logo_1">
+                                <img src="images/brand-1.svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                Лидер в производстве профессионального оборудования для торговли, общественного питания и кухни
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="items__box swiper-slide">
+                        <div class="box__container">
+
+                            <div class="box__logo">
+                                <img src="images/brand-5.svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                Профессиональное оборудование для кухни
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="items__box swiper-slide">
+                        <div class="box__container">
+
+                            <div class="box__logo">
+                                <img src="images/brand-6.svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                Системы стеклянных дверей для холодильного оборудования и стеллажи для ритейла
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="items__box swiper-slide">
+                        <div class="box__container">
+
+                            <div class="box__logo">
+                                <img src="images/brand-7.svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                Профессиональное оборудование для предприятий торговли и HoReCa
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- верхний футер -->
+    <div class="footer__up item_desktop">
+        <div class="container">
+
+            <div class="footer__up_body">
+                <!-- две первые колонки продукция -->
+                <div class="footer__coulen_One">
+                    <div class="one__items">
+                        <ul class="items__box1">
+                            <li class="items__box1_title">Продукция</li>
+                            <li><a href="#">Шкафы холодильные</a></li>
+                            <li><a href="#">Столы холодильные</a></li>
+                            <li><a href="#">Камеры холодильные</a></li>
+                            <li><a href="#">Машины холодильные</a></li>
+                            <li><a href="#">Шоковая заморозка</a></li>
+                            <li><a href="#">Лари морозильные</a></li>
+                        </ul>
+                        <ul class="items__box2">
+                            <li><a href="#">Модульные стеллажные системы</a></li>
+                            <li><a href="#">Оборудование для пекарен</a></li>
+                            <li><a href="#">Барные столы и шкафы</a></li>
+                            <li><a href="#">Шкафы для вызревания</a></li>
+                            <li><a href="#">Продуктоматы iCell</a></li>
+                            <li><a href="#">Термоконтейнеры FoodLine</a></li>
+                            <li class="play">
+                                <a href="#">Шкафы медицинские</a>
+                                <div class="arrow">
+                                    <img src="images/play.svg"alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="one__inner">
+                        <div class="inner__block_1">
+                            Подбор холодильного стола Polair™
+                        </div>
+                        <div class="inner__block_2">
+                            Подбор холодильной машины Polair™
+                        </div>
+                    </div>
+                </div>
+                <!-- сервис и поддержка -->
+                <div class="footer__coulen_Two">
+                    <ul class="two__box">
+                        <li class="coulen__Two_title">Сервис и поддержка</li>
+                        <li><a href="#">Найти авторизованный сервисный центр</a></li>
+                        <li><a href="#">Скачайте документы и рекламные материалы</a></li>
+                        <li><a href="#">Найти авторизованный сервисный центр</a></li>
+                        <li class="play">
+                            <a href="#">Сообщить о неисправности оборудования</a>
+                            <div class="arrow">
+                                <img src="images/play.svg"alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- ссылки -->
+                <div class="footer__coulen_Three">
+                    <ul class="three__box">
+                        <li><a href="#">Где купить</a></li>
+                        <li><a href="#">Решения</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Медиа</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- верхний футер мобилка -->
+    <div class="footer__up item_mobile">
+        <div class="container">
+
+            <div class="footer__up_body">
+                <!-- ссылки -->
+                <div class="footer__coulen_Three">
+                    <ul class="three__box">
+                        <li class="coulen__products" id="btn" onclick="toggle(document.getElementById('more'))">
+                            <a class="products__a" href="#">Продукция
+                                <div class="products__array" id="array">
+                                    <img src="images/arrow-white.svg" alt="">
+                                </div>
+                            </a>
+                         
+                            <div class="footer__coulen_One">
+                                <div class="one__items">
+                                    <ul class="items__box1" id="more" style="display:none">
+                                        <li><a href="#">Шкафы холодильные</a></li>
+                                        <li><a href="#">Столы холодильные</a></li>
+                                        <li><a href="#">Камеры холодильные</a></li>
+                                        <li><a href="#">Машины холодильные</a></li>
+                                        <li><a href="#">Шоковая заморозка</a></li>
+                                        <li><a href="#">Лари морозильные</a></li>
+                                        <li><a href="#">Модульные стеллажные системы</a></li>
+                                        <li><a href="#">Оборудование для пекарен</a></li>
+                                        <li><a href="#">Барные столы и шкафы</a></li>
+                                        <li><a href="#">Шкафы для вызревания</a></li>
+                                        <li><a href="#">Продуктоматы iCell</a></li>
+                                        <li><a href="#">Термоконтейнеры FoodLine</a></li>
+                                        <li class="play">
+                                            <a href="#">Шкафы медицинские</a>
+                                            <div class="arrow">
+                                                <img src="images/play.svg"alt="">
+                                            </div>
+                                        </li>
+                                        <li><a href="#">Подбор холодильного стола Polair™</a></li>
+                                        <li class="lost"><a href="#">Подбор холодильной машины Polair™</a></li>
+                                    </ul>
+                                </div>
+                            </div> 
+                        </li>
+                        <li><a href="#">Где купить</a></li>
+                        <li class="coulen__servis">
+                            <a href="#">Сервис и поддержка</a>
+                            <div class="footer__coulen_Two">
+                                <ul class="two__box">
+                                    <li><a href="#">Найти авторизованный сервисный центр</a></li>
+                                    <li><a href="#">Скачайте документы и рекламные материалы</a></li>
+                                    <li><a href="#">Найти авторизованный сервисный центр</a></li>
+                                    <li class="play lost">
+                                        <a href="#">Сообщить о неисправности оборудования</a>
+                                        <div class="arrow">
+                                            <img src="images/play.svg"alt="">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Решения</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Медиа</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- нижний футер -->
+    <div class="footer__down item_desktop">
+        <div class="container">
+
+            <div class="footer__down_body">
+                <!-- лого -->
+                <div class="down__items">
+                    <div class="items__logo" data-aos="fade-down" data-aos-duration="800" data-aos-easing="linear">
+                        <img src="images/logo-footer.png" alt="">
+                    </div>
+                    <div class="items__text">
+                        © АО «Полаир-Недвижимость» 2022
+                    </div>
+                    <div class="items__box">
+                        <div class="box__cult">
+                            Сделано в <span>CULT</span>                   
+                        </div>
+                        <div class="box__conf">
+                            Политика конфиденциальности                      
+                        </div>
+                        <div class="box__karta">
+                            Карта сайта                        
+                        </div>
+                    </div>
+                </div>
+                <!-- соц сети -->
+                <div class="down__inner">
+                    <div class="inner__box1">
+                        <div class="box1__tel">
+                            <div class="tel__number">
+                                +7 (495) 937-64-07
+                            </div>
+                            <div class="tel__text">
+                                многоканальный
+                            </div>
+                        </div>
+                        <div class="box1__logo">
+                            <div class="logo">
+                                <img src="images/vk.svg" alt="">
+                            </div>
+                            <div class="logo">
+                                <img src="images/teleg.svg" alt="">
+                            </div>
+                            <div class="logo">
+                                <img src="images/youtube.svg" alt="">
+                            </div>
+                            <div class="logo">
+                                <img src="images/social.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner__box2">
+                        <div class="box2__text">
+                            119334, город Москва, Ленинский проспект, дом 37, корпус 1, помещение 2-5, этаж 4
+                        </div>
+                    </div>
+                    <div class="inner__box3">
+                        <div class="box3__text">
+                            При использовании материалов сайта ссылка обязательна.
+                        </div>
+                        <div class="box3__subtext">
+                            Данный интернет-сайт носит исключительно информационный характер, и информация, размещённая на нём, не является публичной офертой, определяемой положениями ст.437 ГК РФ.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- нижний футер мобилка -->
+    <div class="footer__down item_mobile">
+        <div class="container">
+
+            <div class="footer__down_body">
+
+                <div class="down__items">
+                    <div class="items__logo" data-aos="fade-down" data-aos-duration="800" data-aos-easing="linear">
+                        <img src="images/logo-footer.png" alt="">
+                    </div>
+                    <div class="inner__box1">
+                        <div class="box1__tel">
+                            <div class="tel__number">
+                                +7 (495) 937-64-07
+                            </div>
+                            <div class="tel__text">
+                                многоканальный
+                            </div>
+                        </div>
+                        <div class="box1__logo">
+                            <div class="logo">
+                                <img src="images/vk.svg" alt="">
+                            </div>
+                            <div class="logo">
+                                <img src="images/teleg.svg" alt="">
+                            </div>
+                            <div class="logo">
+                                <img src="images/youtube.svg" alt="">
+                            </div>
+                            <div class="logo">
+                                <img src="images/social.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items__text">
+                        © АО «Полаир-Недвижимость» 2022
+                    </div>
+                    <div class="inner__box2">
+                        <div class="box2__text">
+                            119334, город Москва, Ленинский проспект, дом 37, корпус 1, помещение 2-5, этаж 4
+                        </div>
+                    </div>
+                    <div class="items__box">
+                        <div class="box__cult">
+                            Сделано в <span>CULT</span>                   
+                        </div>
+                        <div class="box__conf">
+                            Политика конфиденциальности                      
+                        </div>
+                        <div class="box__karta">
+                            Карта сайта                        
+                        </div>
+                    </div>
+                    <div class="inner__box3">
+                        <div class="box3__text">
+                            При использовании материалов сайта ссылка обязательна.
+                        </div>
+                        <div class="box3__subtext">
+                            Данный интернет-сайт носит исключительно информационный характер, и информация, размещённая на нём, не является публичной офертой, определяемой положениями ст.437 ГК РФ.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
